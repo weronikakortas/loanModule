@@ -1,1 +1,10 @@
 Simple application based on hexagonal architecture.
+
+Based functionalities:
+ *fetch data if loan exist
+ *add loan:
+   - when is not add between hours which are specified in application properties
+   - when loan is not bigger than max amount (configured in application properties)
+
+Application with only few tests cover main functionality.
+
